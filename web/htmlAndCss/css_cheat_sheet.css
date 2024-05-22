@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2dfff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #e7b0c3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(193, 255, 199, 0.228);
+}
+
+.property {
+    margin-bottom: 40px;
+}
+
+.property h2 {
+    font-size: 24px;
+    color: #dcdbac;
+}
+
+.property .description {
+    font-size: 16px;
+    color: #855180;
+}
+
+.example {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #c1dd81;
+    border-radius: 5px;
+}
+
+/* Examples styles */
+.border-example {
+    border: 2px solid #cc7777;
+}
+
+.border-left-example {
+    border-left: 5px solid #4b8a82;
+}
+
+.border-right-example {
+    border-right: 5px solid #343;
+}
+
+.border-top-example {
+    border-top: 5px solid #391;
+}
+
+.border-bottom-example {
+    border-bottom: 5px solid #934;
+}
+
+.border-radius-example {
+    border: 2px solid #174;
+    border-radius: 15px;
+}
+
+.background-image-example {
+    background-image: url('https://via.placeholder.com/150');
+    height: 150px;
+    background-size: cover;
+}
+
+.color-example {
+    color: #ff6347;
+}
+
+.font-example {
+    font: italic small-caps bold 24px/1.5 sans-serif;
+}
+
+.font-family-example {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-style-example {
+    font-style: italic;
+}
+
+.font-weight-example {
+    font-weight: bold;
+}
+
+.width-height-example {
+    width: 200px;
+    height: 100px;
+    background-color: #aaa;
+    border: 2px solid #000;
+}
+
+.list-style-example {
+    list-style: square inside;
+}
+
+.margin-example {
+    margin: 20px;
+    background-color: #ddd;
+    border: 2px solid #333;
+}
+
+.padding-example {
+    padding: 20px;
+    background-color: #ddd;
+    border: 2px solid #333;
+}
+
+.overflow-example {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    background-color: #ddd;
+    border: 2px solid #333;
+}
+
+.display-example {
+    display: inline-block;
+    background-color: #ddd;
+    border: 2px solid #333;
+}
+
+.position-example {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: #ddd;
+    border: 2px solid #333;
+}
+
+.filter-example {
+    filter: grayscale(100%);
+    background-image: url('https://via.placeholder.com/150');
+    height: 150px;
+    background-size: cover;
+}
