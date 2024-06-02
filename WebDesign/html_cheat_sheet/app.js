@@ -18,3 +18,7 @@ app.get('/htmlBasics', (req, res) => {
 app.get('/cssBasics', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'css_cheat_sheet.html'));
   });
+
+  app.get('/webPage', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'webPage.html'));
+  });
